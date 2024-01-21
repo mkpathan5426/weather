@@ -21,6 +21,9 @@ async function checkWeather(city) {
         wBody.style.display = "none";
         return;
     }
+    else {
+        notFound.style.display = "none";
+    }
 
     wBody.style.display = "block";
 
